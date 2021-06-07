@@ -15,9 +15,9 @@
   border-radius: 5px;
 
   &__image {
-    height: 149px;
+    height: 164px;
     width: 166px;
-    padding-top: 15px;
+    padding: 15px 0;
 
     transition: transform 0.4s;
 
@@ -28,7 +28,7 @@
   }
 
   &__description {
-    margin-top: 45px;
+    margin-top: 30px;
   }
 
   &__feedback {
