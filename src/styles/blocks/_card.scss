@@ -15,13 +15,20 @@
   border-radius: 5px;
 
   &__image {
-    height: 134px;
-    width: 160px;
-    margin-top: 15px;
+    height: 164px;
+    width: 166px;
+    padding: 15px 0;
+
+    transition: transform 0.4s;
+
+    &:hover {
+      border: 3px solid #f3f3f3;
+      transform: scale(120%);
+    }
   }
 
   &__description {
-    margin-top: 45px;
+    margin-top: 30px;
   }
 
   &__feedback {
